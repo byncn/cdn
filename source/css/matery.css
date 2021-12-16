@@ -239,11 +239,10 @@ mark {
 .container .row {
     margin-bottom: 0;
 }
-
 /* 导航栏颜色及透明效果 */
 .bg-color {
-    background-image: linear-gradient(to right, #3399cc 0%, #99CCFF 100%);
-	opacity: 1; /* 此数值即为透明度，范围 0-1 */
+    background-image: linear-gradient(to right, #64b3f4 0%, #00ecbc 100%);
+	opacity: 1;  //透明效果 值范围 0~1，看情况自己修改
 }
 
 .text-color {
@@ -566,11 +565,11 @@ header .go-back i {
 .post-cover {
     height: 40vh !important;
 }
-
-.bg-cover:after {
+/* banner 图的动态滤镜颜色 */
+/* .bg-cover:after {
     -webkit-animation: rainbow 60s infinite;
     animation: rainbow 60s infinite;
-}
+} */
 
 .bg-cover:before,
 .bg-cover:after {
